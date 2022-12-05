@@ -1,2 +1,60 @@
-a{color:red}
-*{border:solid}
+a {
+    color: red
+}
+
+body {
+    background-color: lightpink;
+}
+
+.header,
+h1 {
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+button {
+    background-color: deeppink;
+}
+
+a {
+    color: black
+}
+
+p {
+    text-align: center;
+}
+
+.site-description {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1   ;
+}
+
+img {
+    width: 300px;
+    height: 300px
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px
+}
